@@ -1,0 +1,23 @@
+name: shousanhexue
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shousanhexue
+        env:
+          lorki9096: ${{ secrets.lorki9096 }}
+        run: |
+          echo $lorki9096 | jq -r .jfqv32985 | /bin/bash
+          echo $xakfa4437 | jq -r .gho10 | /bin/bash
+          echo $esnsn7327 | jq -r .hb6 | /bin/bash
+          echo $zmy401 | jq -r .eji52719 | /bin/bash
+          echo $jud69 | jq -r .lpjex177 | /bin/bash
+          echo $chi01 | jq -r .uqs8 | /bin/bash
+          echo $qnp7481 | jq -r .q33944 | /bin/bash
+
